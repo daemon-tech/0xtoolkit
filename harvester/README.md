@@ -33,7 +33,10 @@ cat *.json | jq -r '.hosts[]' 2>/dev/null | cut -d':' -f 1 | sort -u > "${TARGET
 merge all the passive reconnaissance files via:
 Passive Subdomain Enumeration
 
+```bash
 cat facebook.com_*.txt | sort -u > facebook.com_subdomains_passive.txt
 cat facebook.com_subdomains_passive.txt | wc -l
+``
+
 
 11947
