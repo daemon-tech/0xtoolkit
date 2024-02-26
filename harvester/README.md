@@ -1,5 +1,6 @@
 ## Passive Subdomain Enumeration
 
+```bash
 export TARGET="facebook.com"
 cat sources.txt | while read source; do theHarvester -d "${TARGET}" -b $source -f "${source}_${TARGET}";done
 
@@ -20,6 +21,7 @@ AS15169
 AS15817
 
 <SNIP>
+```
 
 extract all the subdomains found and sort them via the following command:
 Passive Subdomain Enumeration
