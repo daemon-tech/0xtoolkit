@@ -26,7 +26,7 @@ AS15817
 extract all the subdomains found and sort them via the following command:
 Passive Subdomain Enumeration
 
-``bash
+```bash
 cat *.json | jq -r '.hosts[]' 2>/dev/null | cut -d':' -f 1 | sort -u > "${TARGET}_theHarvester.txt"
 ```
 
