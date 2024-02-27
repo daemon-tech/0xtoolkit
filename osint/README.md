@@ -28,3 +28,7 @@ aquatone --help
 cat facebook_aquatone.txt | aquatone -out ./aquatone -screenshot-timeout 1000
 ```
 
+### ffuf
+
+### wfuzz
+
