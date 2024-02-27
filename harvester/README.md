@@ -36,7 +36,7 @@ Passive Subdomain Enumeration
 ```bash
 cat facebook.com_*.txt | sort -u > facebook.com_subdomains_passive.txt
 cat facebook.com_subdomains_passive.txt | wc -l
-``
+``` 
 
 
 11947
