@@ -1,6 +1,7 @@
 # Osint Write Up
 
-### (Wappalyzer)[https://www.wappalyzer.com/] 
+#### Wappalyzer
+(Wappalyzer)[https://www.wappalyzer.com/] 
 
 #### WhatWeb
 
@@ -15,7 +16,8 @@ sudo apt install wafw00f -y
 wafw00f -v $TARGET
 ```
 
-#### (Aquatone)[https://github.com/michenriksen/aquatone]
+#### Aquatone
+(Aquatone)[https://github.com/michenriksen/aquatone]
 
 ```bash
 sudo apt install golang chromium-driver
