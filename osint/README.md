@@ -1,19 +1,22 @@
 ## Osint Write Up
 
-WhatWeb
+# WhatWeb
 ```bash
 whatweb -a3 https://www.facebook.com -v
 ```
 
-(Wappalyzer)[https://www.wappalyzer.com/] 
+# (Wappalyzer)[https://www.wappalyzer.com/] 
 
-WafW00f
+
+# WafW00f
+
 ```bash
 sudo apt install wafw00f -y
 wafw00f -v $TARGET
 ```
 
-(Aquatone)[https://github.com/michenriksen/aquatone]
+# (Aquatone)[https://github.com/michenriksen/aquatone]
+
 ```bash
 sudo apt install golang chromium-driver
 go get github.com/michenriksen/aquatone
