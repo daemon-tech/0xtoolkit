@@ -29,13 +29,3 @@ aquatone --help
 cat facebook_aquatone.txt | aquatone -out ./aquatone -screenshot-timeout 1000
 ```
 
-
-#### ZoneTransfer Manual Approach
-```bash
-// 1. Identify Nameservers
-nslookup -type=NS zonetransfer.me
-
-// 2. Testing for ANY and AXFR Zone Transfer
-nslookup -type=any -query=AXFR zonetransfer.me nsztm1.digi.ninja
-```
-
