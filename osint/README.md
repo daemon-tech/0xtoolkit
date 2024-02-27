@@ -1,12 +1,12 @@
 # Osint Write Up
 
+### (Wappalyzer)[https://www.wappalyzer.com/] 
+
+
 ### WhatWeb
 ```bash
 whatweb -a3 https://www.facebook.com -v
 ```
-
-### (Wappalyzer)[https://www.wappalyzer.com/] 
-
 
 ### WafW00f
 
