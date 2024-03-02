@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # IP address to find the FQDN for
-ip_to_find="10.10.34.136"
+ip_to_find="" #Input ip
 
 # File containing the list of DNS servers
-dns_list_file="dns.txt"
+dns_list_file="dns.txt" #input file
 
 # Domain to query for zone transfer
 domain="10.129.109.78"  # Change this to your domain
